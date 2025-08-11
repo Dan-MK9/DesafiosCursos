@@ -16,10 +16,10 @@ function carregarDesafios() {
 
         elementoDesafio.className = 'desafio';
 
-        elementoDesafio.innerHTML = `
-    <h3>${desafioAtual.titulo}</h3>
-    <p>${desafioAtual.descricao}</p>
-  `;
+//         elementoDesafio.innerHTML = `
+//     <h3>${desafioAtual.titulo}</h3>
+//     <p>${desafioAtual.descricao}</p>
+//   `;
 
         container.appendChild(elementoDesafio);
     }
