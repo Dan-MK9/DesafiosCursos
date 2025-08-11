@@ -6,7 +6,7 @@ const desafios = {
 }
 
 function carregarDesafios() {
-    const container = document.getElementById('ListaDesafios');
+    const container = document.getElementById('listaDesafios');
 
     for (let desafiosID in desafios){
 
@@ -16,10 +16,10 @@ function carregarDesafios() {
 
         elementoDesafio.className = 'desafio';
 
-//         elementoDesafio.innerHTML = `
-//     <h3>${desafioAtual.titulo}</h3>
-//     <p>${desafioAtual.descricao}</p>
-//   `;
+        elementoDesafio.innerHTML = `
+    <h3>${desafioAtual.titulo}</h3>
+    <p>${desafioAtual.descricao}</p>
+  `;
 
         container.appendChild(elementoDesafio);
     }
